@@ -1,0 +1,27 @@
+@import "styles/variaveis";
+
+.filtro {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  &__filtro {
+    align-items: center;
+    background-color: $grey;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 60px;
+    justify-content: center;
+    width: 180px;
+    &--ativo {
+      background-color: $blue;
+      color: white;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
